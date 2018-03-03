@@ -1,0 +1,24 @@
+From eab6b963bd25d1b9e0fb474a74b258af0a74c869 Mon Sep 17 00:00:00 2001
+From: iamrjkunal <iamrjkunal@gmail.com>
+Date: Sun, 4 Mar 2018 00:21:14 +0530
+Subject: [PATCH] step 30
+
+---
+ hello.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/hello.c b/hello.c
+index 049ab21..67b23af 100644
+--- a/hello.c
++++ b/hello.c
+@@ -1,6 +1,6 @@
+ #include<stdio.h>
+ void microkernel_sendmsg(char *);
+-
++//Changing something
+ void main(){
+ 	printf("Helloworld!\n");
+ 	printf("This must be a monolithic design\n");
+-- 
+2.7.4
+
