@@ -1,0 +1,85 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphics}
+\usepackage{subcaption}
+\title{MAKE AND GNUPLOT PRESENTATIONS}
+\author{Kunal Ranjan \\ 160352}
+\begin{document}
+\maketitle
+\begin{figure}
+\centering
+\includegraphics{graphs/1_type_a.eps}  \newline
+\vspace{5 cm}
+ Figure 1: This is a one point scatter graph for 1 thread . \\
+ \vspace{0.4 cm}
+ \vspace{30 pt}
+This graph is One point (scatter) graph for each thread configuration where X-axis is num-of-elements and Y-axis corresponds to execution time for each sample. 
+ \end{figure}
+ 
+\begin{figure}
+\centering
+\includegraphics{graphs/2_type_a.eps} \newline
+\vspace{5 cm}
+Figure 2: This is a one point scatter graph for 2 threads .\\
+\vspace{30 pt}
+\vspace{0.4 cm}
+ This graph is One point (scatter) graph for each thread configuration where X-axis is num-of-elements and Y-
+axis corresponds to execution time for each sample. 
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics{graphs/4_type_a.eps}\newline
+\vspace{60 pt}
+ Figure 3: This is a one point scatter graph for 4 threads .\\
+ \vspace{0.4 cm}
+ This graph is One point (scatter) graph for each thread configuration where X-axis is num-of-elements and Y-
+axis corresponds to execution time for each sample. 
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics{graphs/8_type_a.eps}\newline
+\vspace{60 pt}
+Figure 4: This is a one point scatter graph for 8 threads .\\
+\vspace{0.4 cm}
+This graph is One point (scatter) graph for each thread configuration where X-axis is num-of-elements and Y-
+axis corresponds to execution time for each sample. 
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics{graphs/16_type_a.eps}\newline
+\vspace{60 pt}
+ Figure 5: This is a one point scatter graph for 16 threads .\\
+ \vspace{0.4 cm}
+This graph is One point (scatter) graph for each thread configuration where X-axis is num-of-elements and Y-
+axis corresponds to execution time for each sample. 
+\end{figure}
+
+
+\begin{figure}
+\centering
+\includegraphics{graphs/type_b.eps}\newline
+\vspace{60 pt}
+ Figure 6: This is a single line graph for all the threads. \\
+ \vspace{0.4 cm}
+ A single line graph for each thread configuration where X-axis is num-of-elements and Y-axis is average execution time over 100 samples.
+with proper legends for each thread)
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics{graphs/type_c.eps}\newline
+\vspace{60 pt}
+ Figure 7: This is one bar graph.\\
+ \vspace{0.4 cm}
+ One bar graph with X-axis as number of elements and Y-axis as average speedup (as I have
+executed the same configuration for 100 times) w.r.t. one thread execution. Plot the bars representing num of threads for every point in X-axis
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics{graphs/type_d.eps}\newline
+\vspace{60 pt}
+ Figure 8: This is one bar graph with error bars.\\
+ \vspace{0.4 cm}
+ Plot the same graph as fig 7 but with error bars. Where error bars represent the variance calculated over 100 samples for a particular configuration.
+\end{figure}
+\end{document}

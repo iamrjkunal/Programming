@@ -22,8 +22,8 @@ static int no_txn;
 static int txn_ctr;
 static double acct[10000];
 
-void *update_account(void *arg);
-void update_aft_txn(char *txn, double *acct);
+//void *update_account(void *arg);
+//void update_aft_txn(char *txn, double *acct);
 
 int main(int argc, char **argv)
 {
@@ -134,11 +134,11 @@ else{
      close(fd);
 
      for(int i=0; i<10000; i++){
-     	printf("%d %.2f\n",i+1001,acct[i]);
+     	//printf("%d %.2f\n",i+1001,acct[i]);
      }
 }
 
-void *update_account(void *arg){
+//void *update_account(void *arg){
 	char *cptr;
 	char *endptr= (char*)arg;
 	int len;
@@ -164,7 +164,7 @@ void *update_account(void *arg){
 	pthread_exit(NULL);
 }
 
-void update_aft_txn(char *txn, double *acct){
+//void update_aft_txn(char *txn, double *acct){
 	int txn_id,txn_type,txn_acct1,txn_acct2;
 	double txn_amount;
 
