@@ -1,2 +1,1 @@
-# Programming
-Solutions of Assignments
+# Solutions of Assignments
